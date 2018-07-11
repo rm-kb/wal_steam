@@ -43,7 +43,7 @@ METRO_ZIP        = os.path.join(CACHE_DIR, "metroZip.zip")
 METRO_DIR        = os.path.join(CACHE_DIR, "metroZip")
 METRO_COPY       = os.path.join(METRO_DIR, "Metro 4.2.4")
 
-METRO_PATCH_URL  = "https://codeload.github.com/redsigma/UPMetroSkin/zip/196feafc14deae103355b4fee1ecc4cda9288c7f" # A link to the version we've tested rather than the latest, just in case they break things upstream.
+METRO_PATCH_URL  = "https://github.com/redsigma/UPMetroSkin/archive/master.zip" # A link to the version we've tested rather than the latest, just in case they break things upstream.
 METRO_PATCH_ZIP  = os.path.join(CACHE_DIR, "metroPatchZip.zip")
 METRO_PATCH_DIR  = os.path.join(CACHE_DIR, "metroPatchZip")
 METRO_PATCH_COPY = os.path.join(METRO_PATCH_DIR, "UPMetroSkin-196feafc14deae103355b4fee1ecc4cda9288c7f", "Unofficial 4.2.4 Patch", "Main Files [Install First]")
